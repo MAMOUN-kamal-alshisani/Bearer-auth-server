@@ -1,0 +1,31 @@
+{
+  "name": "bearer-auth-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAMOUN-kamal-alshisani/Bearer-auth-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MAMOUN-kamal-alshisani/Bearer-auth-server/issues"
+  },
+  "homepage": "https://github.com/MAMOUN-kamal-alshisani/Bearer-auth-server#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.8.0",
+    "sequelize": "^6.21.4",
+    "sequelize-cli": "^6.4.1"
+  }
+}
